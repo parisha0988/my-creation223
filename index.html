@@ -3,9 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parisha - Professional CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8; /* Soft background */
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+
+        .cv-container {
+            width: 85%;
+            max-width: 750px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #1abc9c; /* Unique Teal Color */
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .name {
+            color: #2c3e50;
+            font-size: 35px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            color: #1abc9c;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .profile-pic-area {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%; /* Circle shape */
+            border: 5px solid #ecf0f1;
+            object-fit: cover;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            text-transform: uppercase;
+            font-size: 20px;
+            border-left: 5px solid #1abc9c;
+            padding-left: 15px;
+            margin: 30px 0 15px 0;
+        }
+      
+        .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Image ko center karne ke liye */
+}
+
+        .content-text {
+            color: #555;
+            line-height: 1.6;
+            margin-left: 20px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 20px;
+        }
+
+        .skill-tag {
+            background: #e8f8f5;
+            color: #16a085;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="cv-container">
+        
+        <div class="header">
+            <h1 class="name">PARISHA</h1>
+            <p class="tagline">Aspiring Web Developer</p>
+        </div>
+
+        <div class="profile-pic-area">
+            <img src="parisha-pic.png" alt="Parisha's Profile" class="profile-img">
+            <p style="font-size: 12px; color: #999;">(Profile Picture)</p>
+        </div>
+
+        <div class="section-title">Contact Information</div>
+        <div class="content-text">
+            <p><strong>Email:</strong> parisha0995@gmail.com</p>
+            <p><strong>Phone:</strong> +92-3492540453</p>
+            <p><strong>Website:</strong> www.parisha-dev.com</p>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="content-text">
+            <p><strong>Intermediate</strong></p>
+            <p>Year: 2024 - 2025</p>
+            <p>Currently pursuing modern web development skills.</p>
+        </div>
+
+        <div class="section-title">Skills</div>
+        <div class="skills-container">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Web Design</span>
+            <span class="skill-tag">Typing</span>
+            <span class="skill-tag">Communication</span>
+        </div>
+
+        <div class="section-title">Personal Details</div>
+        <div class="content-text">
+            <p><strong>Nationality:</strong> Pakistani</p>
+            <p><strong>Languages:</strong> Urdu, English</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
